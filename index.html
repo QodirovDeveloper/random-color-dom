@@ -11,41 +11,47 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body id="body" class="bg-cover bg-no-repeat font-mono bg-[#000000b1]">
-  <div class="container flex flex-col items-center justify-center mx-auto pl-1 pr-1 my-5">
-    <!-- !!! lorem -->
-    <ul class="font-semibold sm:text-3xl text-xl my-2 bg-[#000000b1] p-2 rounded-2xl">
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-      <li>Lorem, ipsum dolor.</li>
-    </ul>
+<body>
+  <div id="body" class="bg-cover md:h-[700px] bg-center h-[500px] w-full bg-no-repeat font-mono bg-[#000000b1]">
 
-    <!-- !!! boxes -->
-    <div class="grid grid-cols-3 text-xl font-extrabold gap-4 *:shadow-xl *:cursor-pointer">
-      <div class="boxes border p-5">Box 1</div>
-      <div class="boxes border p-5">Box 2</div>
-      <div class="boxes border p-5">Box 3</div>
+    <div class="container flex flex-col gap-1 items-center justify-center mx-auto pl-1 pr-1 pt-1">
+      <!-- !!! lorem -->
+      <ul class="font-semibold sm:text-2xl text-sm bg-[#000000b1] p-2 rounded-2xl">
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+      </ul>
+
+      <!-- !!! boxes -->
+      <div class="grid grid-cols-3 text-xl font-extrabold gap-4 *:shadow-xl *:cursor-pointer">
+        <div class="boxes border p-3">Box 1</div>
+        <div class="boxes border p-3">Box 2</div>
+        <div class="boxes border p-3">Box 3</div>
+      </div>
+
+      <!-- !!! click me-->
+      <div class="grid grid-cols-3 text-xl font-extrabold my-1 gap-4 *:shadow-xl *:cursor-pointer *:select-none">
+        <div class="clickMe border p-3">
+          Click Me
+          <i class="fa-solid fa-hand-pointer"></i>
+        </div>
+        <div class="clickMe border p-3">
+          Click Me
+          <i class="fa-solid fa-hand-pointer"></i>
+        </div>
+        <div class="clickMe border p-3">
+          Click Me
+          <i class="fa-solid fa-hand-pointer"></i>
+        </div>
+      </div>
+      <!-- !!! mauseover -->
+      <div class="">
+         <img class="md:w-40 w-32 cursor-pointer" id="qizaloq" src="/images/qizaloq2.png" alt="image">
+      </div>
     </div>
-
-    <!-- !!! click me-->
-    <div class="grid grid-cols-3 text-xl font-extrabold my-4 gap-4 *:shadow-xl *:cursor-pointer *:select-none">
-      <div class="clickMe border p-5">
-        Click Me
-        <i class="fa-solid fa-hand-pointer"></i>
-      </div>
-      <div class="clickMe border p-5">
-        Click Me
-        <i class="fa-solid fa-hand-pointer"></i>
-      </div>
-      <div class="clickMe border p-5">
-        Click Me
-        <i class="fa-solid fa-hand-pointer"></i>
-      </div>
-    </div>
-
   </div>
+
   <script src="/app.js"></script>
 </body>
 

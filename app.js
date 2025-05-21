@@ -69,6 +69,7 @@ contentColor.forEach((content) => {
 });
 
 // ! _________________________
+// ! _________________________
 // ! click me
 
 const tailwindRanglar = [
@@ -91,3 +92,14 @@ qutilar.forEach((quti) => {
     quti.classList.add(tasodifiyRang, "text-white");
   });
 });
+
+// !____________________________
+// !____________________________
+// ! mauseover
+const qizaloq = document.getElementById("qizaloq")
+qizaloq.addEventListener("mouseover", (event) => {
+  event.target.src="/images/qizaloq.png"
+})
+qizaloq.addEventListener("mouseout", (event) => {
+  event.target.src="/images/qizaloq2.png"
+})
