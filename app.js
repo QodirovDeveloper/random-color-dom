@@ -40,6 +40,7 @@ liElements.forEach((li) => {
 });
 
 // ! _________________________
+// ! _________________________
 // ! boxes
 function randomColor2() {
   let color = "#";
@@ -53,6 +54,7 @@ const boxElements = document.querySelectorAll(".boxes");
 boxElements.forEach((boxes) => {
   boxes.style.backgroundColor = randomColor();
 });
+// ! _________________________
 // ! _________________________
 // ! boxes content text
 function randomColor3() {
